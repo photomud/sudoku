@@ -1,0 +1,1027 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".SudokuBoard">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            android:id="@+id/textView"/>
+
+    <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/gridboard">
+
+        <!-- Row 0 -->
+        <com.example.sudoku.SudokuSmallButton
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile00"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="0"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile00"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:onClick="updateCell"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile01"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="1"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile02"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="2"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile03"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="3"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile04"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="4"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile05"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="5"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile06"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="6"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile07"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="7"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile08"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="0"
+                android:layout_column="8"/>
+
+
+        <!-- Row 1 -->
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile10"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="1"
+                android:layout_column="0"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile11"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="1"
+                android:layout_column="1"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile12"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="1"
+                android:layout_column="2"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile13"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="1"
+                android:layout_column="3"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile14"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="1"
+                android:layout_column="4"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile15"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="1"
+                android:layout_column="5"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile16"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="1"
+                android:layout_column="6"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile17"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="1"
+                android:layout_column="7"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile18"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="1"
+                android:layout_column="8"/>
+
+
+        <!-- Row 2 -->
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile20"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="2"
+                android:layout_column="0"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile21"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="2"
+                android:layout_column="1"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile22"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="2"
+                android:layout_column="2"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile23"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="2"
+                android:layout_column="3"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile24"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="2"
+                android:layout_column="4"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile25"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="2"
+                android:layout_column="5"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile26"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="2"
+                android:layout_column="6"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile27"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="2"
+                android:layout_column="7"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile28"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="2"
+                android:layout_column="8"/>
+
+
+        <!-- Row 3 -->
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile30"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="3"
+                android:layout_column="0"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile31"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="3"
+                android:layout_column="1"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile32"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="3"
+                android:layout_column="2"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile33"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="3"
+                android:layout_column="3"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile34"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="3"
+                android:layout_column="4"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile35"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="3"
+                android:layout_column="5"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile36"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="3"
+                android:layout_column="6"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile37"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="3"
+                android:layout_column="7"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile38"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="3"
+                android:layout_column="8"/>
+
+
+        <!-- Row 4 -->
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile40"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="4"
+                android:layout_column="0"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile41"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="4"
+                android:layout_column="1"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile42"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="4"
+                android:layout_column="2"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile43"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="4"
+                android:layout_column="3"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile44"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="4"
+                android:layout_column="4"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile45"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="4"
+                android:layout_column="5"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile46"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="4"
+                android:layout_column="6"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile47"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="4"
+                android:layout_column="7"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile48"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="4"
+                android:layout_column="8"/>
+
+
+        <!-- Row 5 -->
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile50"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="5"
+                android:layout_column="0"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile51"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="5"
+                android:layout_column="1"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile52"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="5"
+                android:layout_column="2"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile53"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="5"
+                android:layout_column="3"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile54"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="5"
+                android:layout_column="4"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile55"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="5"
+                android:layout_column="5"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile56"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="5"
+                android:layout_column="6"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile57"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="5"
+                android:layout_column="7"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile58"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="5"
+                android:layout_column="8"/>
+
+
+        <!-- Row 6 -->
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile60"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="6"
+                android:layout_column="0"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile61"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="6"
+                android:layout_column="1"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile62"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="6"
+                android:layout_column="2"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile63"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="6"
+                android:layout_column="3"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile64"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="6"
+                android:layout_column="4"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile65"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="6"
+                android:layout_column="5"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile66"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="6"
+                android:layout_column="6"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile67"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="6"
+                android:layout_column="7"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile68"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="6"
+                android:layout_column="8"/>
+
+
+        <!-- Row 7 -->
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile70"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="7"
+                android:layout_column="0"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile71"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="7"
+                android:layout_column="1"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile72"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="7"
+                android:layout_column="2"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile73"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="7"
+                android:layout_column="3"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile74"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="7"
+                android:layout_column="4"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile75"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="7"
+                android:layout_column="5"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile76"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="7"
+                android:layout_column="6"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile77"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="7"
+                android:layout_column="7"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile78"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="7"
+                android:layout_column="8"/>
+
+
+        <!-- Row 8 -->
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile80"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="8"
+                android:layout_column="0"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile81"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="8"
+                android:layout_column="1"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile82"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="8"
+                android:layout_column="2"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile83"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="8"
+                android:layout_column="3"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile84"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="8"
+                android:layout_column="4"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile85"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="8"
+                android:layout_column="5"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile86"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="8"
+                android:layout_column="6"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile87"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="8"
+                android:layout_column="7"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:onClick="updateCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tile88"
+                android:width="20dp"
+                android:height="20dp"
+                android:singleLine="false"
+                android:layout_row="8"
+                android:layout_column="8"/>
+
+    </GridLayout>
+
+</RelativeLayout>

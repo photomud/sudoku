@@ -1,0 +1,21 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1376273964000 772 967c53e17faace4d10ef5e0a40f73943c7a14d2b /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/SudokuSmallButton.class
+1376275469000 437 e6d5498643c4ded2fc1b0133e828e521155c8b55 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/R$menu.class
+1376275469000 448 5eb10f5838a7755bfa14aad800e7ed0459865900 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/R$layout.class
+1376258885000 407 c7f8142d98a8ba85233b55da846225be4b98513f /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/R$drawable.class
+1376258885000 340 3a345b0b2244298297594a7ab9a8a72b21dc21ac /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/R$attr.class
+1376275469000 2316 fc3591d4cc4da5dc9ded02fa6ed448ef474ebac0 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/SudokuCellPopup.class
+1376275469000 2927 91e18b8a5c0eca4c9c697c1c5b69e9891c19f7b1 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/R$id.class
+1376258885000 345 55fec5686dfd8dc649fb4c79f45acb03c61f82c7 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/BuildConfig.class
+1376275469000 528 5d7057ef45c0afa83b63c84d7688da039d95fd6f /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/R$string.class
+1376258885000 461 71a181cba221ed6a13a4306ec6d658d886a2718b /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/R$dimen.class
+1376275469000 677 27f52f3323134d80ee2f400e24827c5b2a3442ab /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/R.class
+1376281618000 2610 274100f16c081854b61697c36923bc6ca1f631bb /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/model/Board.class
+1376282444000 4098 d4224720ec185c3c27540f3e224a1ee8ed80f474 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/SudokuBoard.class
+1376262616000 1532 b47dd671c86faf0c196bc985f5d7c8aecf71dd2a /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/model/Tile.class
+1369432937000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1376279122000 1428 1be8da51b3936ff98a13c0a8f311406ad5a16054 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/model/SudokuController.class
+1376262616000 606 9846a355dc08c24bb898d091fff65bd2d75990db /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/model/FixedTile.class
+1376275469000 431 1516e69f1017fcb6837debbeff9ea66ca278f6df /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/classes/debug/com/example/sudoku/R$style.class

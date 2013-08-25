@@ -1,0 +1,15 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1376258884000 1628 faaebea39ba8a4a004526a5c0c4697a585bd5829 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1376275466000 367 821d71078764c68eebdea35a9794dcadf19aa101 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/menu/sudoku_cell_popup.xml
+1376258884000 340 0fc38a0efafa0037eed1b5454b9b3d7050abc2e7 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/values-v14/values.xml
+1376275466000 820 fe314bbeb61c981fa93529cf81a0b291e29ad26c /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/layout/activity_cell_popup.xml
+1376274600000 39484 2c8e1f980c140fb783d56a816e3954a4cc113999 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/layout/activity_sudoku.xml
+1376258884000 959 5555a652ed340c0f39df1cfdfc4c6156c6ccd69e /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1376258884000 257 711a15f2c29655cc885b6d286487f4bf8cbfc31c /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/values-sw720dp-land/values.xml
+1376258884000 1224 96164562af3a4352bb8b6e7feb4c199881c9fd1f /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1376258884000 326 f5ff4a112e612f91aadbaf996ecde5fad55a4bea /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/values-v11/values.xml
+1376275466000 1215 e5efb95048f1d1a53566cf6ba9c4937783f38119 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/values/values.xml
+1376258884000 362 1aff849e4273aa2577a8fd7bb2a4348fd9af6d8b /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/menu/sudoku_board.xml
+1376258884000 2258 f562c21daf9f5d78fbe51f96eacea45608f45d22 /Users/muddy buddy/AndroidStudioProjects/SudokuProject/Sudoku/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
